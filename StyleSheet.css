@@ -1,0 +1,232 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./img/library-bg-main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    object-fit: cover;
+    font-family: Verdana;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #532090;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    padding: 10px 40px;
+    font-family: Arial, sans-serif;
+    top: 0;
+}
+
+    #header .logo {
+        display: flex;
+        align-items: center;
+    }
+
+        #header .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        #header .logo p {
+            font-weight: bold;
+            font-size: 20px;
+            color: #fff;
+        }
+
+    #header nav a {
+        text-decoration: none;
+        color: white;
+        margin: 0 15px;
+        font-size: 1.1em;
+    }
+
+        #header nav a:hover {
+            color: #ffc107;
+        }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #532090;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#right-login {
+    max-width: 20rem;
+    width: 100%;
+}
+    #right-login h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+    }
+    #right-login rl-fd {
+        position: relative;
+    }
+
+#login {
+    height: 183px;
+    width: 388px;
+    border: solid 2px #532090;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+#img {
+    height: 320px;
+    width: 700px;
+    border: solid 0px #532090;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.tbl {
+    width: 100%;
+    border: solid 1px #d6c5eb;
+    background: #d6c5eb;
+    color: white;
+    height: -webkit-fill-available;
+}
+
+.tblhead {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+    background: linear-gradient(#532090, #3e1372);
+}
+
+.lbl {
+    text-align: right;
+    color: black;
+}
+
+.txt {
+    height: 20px;
+    width: 150px;
+    border: solid 1px #3e1372;
+    background: #f7f0ff;
+}
+
+    .txt:hover {
+        border: solid 1px #ff6600;
+    }
+
+.btn:hover {
+    background: #ffc107;
+    color: #000;
+    font-weight: bold;
+    border: solid 2px #000;
+    height: 30px;
+    /*    background: linear-gradient(Yellow, #ffc107);*/
+}
+
+.btn {
+    /*    background: #fff;*/
+    color: #fff;
+    font-weight: bold;
+    border: solid 2px #3e1372;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    background: linear-gradient(#532090, #3e1372);
+}
+
+#default-main {
+    width: 780px;
+    height: 250px;
+    border: solid 1px #3e1372;
+    border-radius: 10px;
+    /* box-shadow:0px 0px 15px 0px #532090;*/
+    margin: 0 auto;
+    margin-top: 220px;
+    background: rgb(214, 197, 235, 0.6);
+    backdrop-filter: blur(3px);
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+    #default-main #left-img {
+        height: 140px;
+        width: 140px;
+        box-shadow: 0px 0px 20px 3px darkviolet;
+        border-radius: 50%;
+        margin:35px;
+    }
+
+        #default-main #left-img img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+
+#main {
+    width: 1000px;
+    height: 555px;
+    border: solid 1px #3e1372;
+    /* box-shadow:0px 0px 15px 0px #532090;*/
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #fff;
+}
+
+#menu {
+    width: 230px;
+    height: 550px;
+    border: solid 0px red;
+    float: left;
+    background: #fff;
+}
+
+#detail {
+    width: 760px;
+    height: 550px;
+    border: solid 0px red;
+    float: left;
+    margin-left: 5px;
+    background: #fff;
+}
+
+.btnmenu {
+    background: #9b5ad7;
+    color: #000;
+    margin-top: 3px;
+    font-weight: bold;
+    width: 100%;
+    height: 39px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .btnmenu:hover {
+        background: #53148d;
+        color: #fff;
+        font-weight: bold;
+        transition: background-color .6s ease;
+    }
+
+.lnk {
+    color: #532090;
+    font-weight: bold;
+}
+
+    .lnk:hover {
+        color: #ff6600;
+        font-weight: bold;
+    }
